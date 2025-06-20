@@ -1,6 +1,8 @@
+import "../../assets/styles/Image.css";
+
 const Image = ({ src, alt }) => (
-  <div style={{ textAlign: "center", marginBottom: 16 }}>
-    <img src={src} alt={alt} style={{ maxWidth: "100%", maxHeight: 200 }} />
+  <div className="image-container">
+    <img src={src} alt={alt} className="image" />
   </div>
 );
 
