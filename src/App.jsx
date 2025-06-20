@@ -5,8 +5,6 @@ const App = () => (
   <Routes>
     <Route path="/login" element={<Login />} />
     <Route path="/" element={<Navigate to="/login" replace />} />
-    {/* Optionally, add a catch-all route for 404 */}
-    {/* <Route path="*" element={<div>Page Not Found</div>} /> */}
   </Routes>
 );
 
